@@ -4,6 +4,7 @@
 <head>
     <title>Game</title>
     <link rel="stylesheet" href="./styles/game.css">
+    <script src="./game.js"></script>
 </head>
 
 <body>
@@ -23,7 +24,7 @@
             </div>
             <div class="word__text">
                 <input class="textbox" id="myword" type="text">
-                <button class="search">입력</button>
+                <button class="search" onclick='startWord()'>입력</button>
             </div>
             <div id="result" class="world__result">결과!</div>
         </div>
@@ -39,7 +40,7 @@
                 <span>30</span>
                 <span>34</span>
             </div>
-            <button class="wrapper__lotto__btn">Button</button>
+            <button class="wrapper__lotto__btn" onclick=startLotto()>추첨</button>
         </div>
     </div>
 </body>
